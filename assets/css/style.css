@@ -1,10 +1,32 @@
-h1 {
-    background: rgba(255, 255, 255, 0.514);
-    border-radius: 20px;
-}
+
 
 
 .parallax-container {
     height: 350px;
   }
       
+
+  body {
+    background: #f7dada;
+}
+
+
+
+#contact {
+    position: relative;
+}
+
+#contactbackground{
+    border-radius: 20px;
+}
+
+.btn-floating {
+    top: 56%;
+    left: 39%;
+    z-index: 999;
+    position: absolute;
+}
+
+p {
+    font-size: 18px;
+}

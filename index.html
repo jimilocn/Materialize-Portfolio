@@ -16,16 +16,33 @@
 <body>
     <nav>
         <div class="nav-wrapper red lighten-3">
-            <a href="index.html" class="brand-logo center blue-grey-text text-darken-2"><img src="./assets/images/logo.png" alt="Jimi Loc Nguyen" style="height:100px"></a>
+            <a href="index.html" class="brand-logo center blue-grey-text text-darken-2"><img
+                    src="./assets/images/logo.png" alt="Jimi Loc Nguyen" style="height:100px"></a>
 
             <ul id="nav-mobile" class="right hide-on-med-and-down grey-text">
-                <li><a href="contact.html" class="grey-text text-darken-2"><h5>Contact</h5></a></li>
-                <li><a href="portfolio.html" class="grey-text text-darken-2"><h5>Portfolio</h5></a></li>
+                <li><a href="index.html" class="grey-text text-darken-2">
+                        <h5>Home</h5>
+                    </a></li>
+                <li><a href="contact.html" class="grey-text text-darken-2">
+                        <h5>Contact</h5>
+                    </a></li>
+                <li><a href="portfolio.html" class="grey-text text-darken-2">
+                        <h5>Portfolio</h5>
+                    </a></li>
             </ul>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
         </div>
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+        <ul id="slide-out" class="sidenav">
+
+            <li><a href="index.html"><i class="material-icons">cloud</i>Home</a></li>
+            <li><a href="contact.html"><i class="material-icons">contacts</i>Contact</a></li>
+            <li><a href="contact.html"><i class="material-icons">burst_mode</i>Portfolio</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+
+            <li><a class="sidenav-close"><i class="material-icons">close</i>Close</a></li>
         </ul>
 
     </nav>
@@ -159,7 +176,7 @@
         <div class="container">
             <div class="row">
                 <div class="col m4 s12 center">
-                    <a class="white-text" href="www.linkedin.com/in/jimi-loc-nguyen">
+                    <a class="white-text" href="https://www.linkedin.com/in/jimi-loc-nguyen/" target="_blank">
                         <h5>Linkedin</h5>
                     </a>
 
@@ -167,13 +184,13 @@
                 </div>
                 <div class="col m4 s12 center">
                     <a class="white-text"
-                        href="https://docs.google.com/document/d/16hA0mp15azMN1fWAwkXd0oWcFXhpgxOL19_Bsbc8BUY/edit?usp=sharing">
+                        href="https://docs.google.com/document/d/16hA0mp15azMN1fWAwkXd0oWcFXhpgxOL19_Bsbc8BUY/edit?usp=sharing"
+                        target="_blank">
                         <h5>Resume</h5>
                     </a>
                 </div>
                 <div class="col m4 s12 center">
-                    <a class="white-text"
-                        href="https://github.com/jimilocn">
+                    <a class="white-text" href="https://github.com/jimilocn" target="_blank">
                         <h5>GitHub</h5>
                     </a>
                 </div>
@@ -185,8 +202,6 @@
             </div>
         </div>
     </footer>
-
-
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
